@@ -3,6 +3,7 @@ package cal;
 public class Calculator2 {
 	String fname, lname;
 	int mark, price, age;
+	static String collegename ="Amrutvahini colllege of enginnering, Sangamner";
 	public Calculator2(String fname, String lname, int mark, int price, int age) {
 		super();
 		this.fname = fname;
@@ -11,11 +12,7 @@ public class Calculator2 {
 		this.price = price;
 		this.age = age;
 	}
-	@Override
-	public String toString() {
-		return "Calculator2 [fname=" + fname + ", lname=" + lname + ", mark=" + mark + ", price=" + price + ", age="
-				+ age + "]";
-	}
+	
 	public String getFname() {
 		return fname;
 	}
@@ -48,6 +45,11 @@ public class Calculator2 {
 	}
 	public Calculator2() {
 		super();
+	}
+	@Override
+	public String toString() {
+		return "Calculator2 [fname=" + fname + ", lname=" + lname + ", mark=" + mark + ", price=" + price + ", age="
+				+ age + "]";
 	}
 	
 
